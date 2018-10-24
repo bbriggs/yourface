@@ -1,0 +1,15 @@
+language: python
+python:
+- '2.7'
+- '3.3'
+- pypy
+deploy:
+  provider: pypi
+  user: "briggsb"
+  password:
+    secure: 1LUiafztYJDIfqGP72DBQ7LfDiF5egKQDSoTNMeTghtJ/4a7Y9o35OlzhJizEzYy9BPpKoT1Tdq1Kmy3klOXfDegnFawIUblCGKqqRplDvWv7a7Mxk71Gvin0MdxUG5erzBDrh6dn7q5rs4Yzwv/VjqIfDf8Rdhswz6Y72txnPURPdAJPXjzBYX6STEfCPiXFQp0m/21LvAqY41Y+hKwrKqhUgXZryCMT6dyyeteZ7T7zUmUOtgNB1VrDd2YZcYAwuNckn5XnDJOq1wFl7xc3ui9VZaQY2GrxjOuuMXs4GRkBAy3qTb4YhfYR7u256omAymoNWeoKWMz0VaAgb7zcld+caRzW6AY1tATTGgEbbErUfANi/S4nINOIGn5vzWmWl9wQ55axgGfgcY4HyNVeVOj9bgEzVIaBPUp5Ros9nJzb1d81NfUjKVrEINAukTO1+ZM/vUqsv7I1F6DaprZXoxFut1PbkMXSXox8f1Twa5vymAqd/TbqkDM5hEC8+QyNx1TbfedW1/8joBpLj/th7jzze37M+F8HDvuO+priPlfmWEGLNj4a9pfoZSgHvYN8PAHNumIOzNb1JMHYMgkzNgoJSSv4lWvR+N39zYa5ZCKtimgcTPiYE0QjtvqCvjIBDpJ5AlwPR8yCqZXzhW0DF+vvvHa5qFeaKT+VEEjg60=
+  on:
+    tags: true
+    distributions: "sdist bdist_wheel"
+    repo: bbriggs/yourface
+    branch: master
