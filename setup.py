@@ -1,9 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='yourface',
 
-    version='0.1.2',
+    version='0.1.3',
 
     license='MIT',
 
@@ -25,5 +25,7 @@ setup(
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python'
     ],
+
+    packages=['yourface']
 
 )
