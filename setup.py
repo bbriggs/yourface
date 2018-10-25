@@ -9,7 +9,7 @@ setup(
 
     py_modules=['yourface'],
 
-    description="import your face"
+    description="import your face",
 
     author="Bren 'fraq' Briggs",
 
