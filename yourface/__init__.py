@@ -1,3 +1,3 @@
 import webbrowser
 
-webbrowser.open("http://homestarrunner.com/")
+webbrowser.open("https://yourface.fraq.io")
